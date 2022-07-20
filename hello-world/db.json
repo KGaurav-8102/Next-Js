@@ -1,15 +1,36 @@
 {
+    "news" : [
+        {
+            "id": 1,
+            "title" : "news Article 1",
+            "description" : "Description 1",
+            "category" : "Sports"
+        },
+        {
+            "id": 2,
+            "title" : "news Article 2",
+            "description" : "Description 2",
+            "category" : "Politics"
+        },
+        {
+            "id": 3,
+            "title" : "news Article 3",
+            "description" : "Description 3",
+            "category" : "Sports"
+        }
+
+    ],
     "products" : [
         {
             "id" : 1,
             "title" : "Product 1",
-            "price" : 800,
+            "price" : 700,
             "description" : "Description 1"
         },
         {
             "id" : 2,
             "title" : "Product 2",
-            "price" : 1500,
+            "price" : 1055,
             "description" : "Description 2"
         },
         {
