@@ -25,7 +25,7 @@
             "id" : 4,
             "title" : "Event 4",
             "description" : "Description 4",
-            "category" : "travel",
+            "category" : "sports",
             "date" : "Nov 25"
         },
         {
@@ -60,7 +60,7 @@
             "id" : 9,
             "title" : "Event 9",
             "description" : "Description 9",
-            "category" : "blogging",
+            "category" : "sports",
             "date" : "June 25"
         },
         {
