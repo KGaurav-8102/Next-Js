@@ -1,7 +1,7 @@
 export default function ArticlesListByCategory({ articles, category }) {
     return (
         <>
-             <h1>Showing news for category "{category}"</h1>
+             <h1>Showing news for category {category}</h1>
             {articles.map(article => {
                 return (
                 <div key={article.id}>
@@ -19,7 +19,8 @@ export default function ArticlesListByCategory({ articles, category }) {
 
 export async function getServerSideProps(context) {
 
-    const { params, req, res } = context
+    const { params, req, res, query } = context
+    console.log(query);
     console.log(req.headers.cookie);
     res.setHeader('set-Cookie', ['name=Gaurav'])
     const { category } = params
@@ -29,7 +30,7 @@ export async function getServerSideProps(context) {
     )
 
     const data = await response.json()
-    console.log(data);
+
     return {
         props: {
             articles: data,
