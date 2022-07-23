@@ -1,3 +1,4 @@
+import Footer from  '../components/Footer'
 
 function About() {
     return (
@@ -6,3 +7,12 @@ function About() {
 }
 
 export default About
+
+About.getLayout = function PageLayout(page) {
+    return (
+        <>
+            {page}
+            <Footer />
+        </>
+    )
+}
