@@ -1,8 +1,8 @@
-import styles from '../styles/About.module.css'
+import styles from '../styles/About.module.scss'
 
 function About() {
     return (
-        <div className={styles.highlight}>About Page</div>
+        <div className={styles.highlightscss}>About Page</div>
     )
 }
 

@@ -1,8 +1,8 @@
-import styles from '../styles/Contact.module.css'
+import styles from '../styles/Contact.module.scss'
 
 function Contact() {
     return(
-        <div className={styles.highlight}>Contact Page</div>
+        <div className={styles.highlightscss}>Contact Page</div>
     )
 }
 
