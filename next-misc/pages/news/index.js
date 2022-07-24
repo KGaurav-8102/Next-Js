@@ -1,5 +1,5 @@
 function News({ data }) {
-    return <h1></h1>
+    return <h1 className='content'>{data}</h1>
 }
 
 export default News
