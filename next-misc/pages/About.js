@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Footer from  '../components/Footer'
+import Footer from  '@/Layout/Footer'
 
 function About() {
     return (
