@@ -7,7 +7,9 @@ function Blog({ title, description}) {
                 <title>{title}</title>
                 <meta name='description' content={description} />
             </Head>
-            <h1 className='content'>Article</h1>
+            <h1 className='content'>
+                Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}
+            </h1>
         </>
     )
 }
