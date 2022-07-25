@@ -8,7 +8,7 @@ function Blog({ title, description}) {
                 <meta name='description' content={description} />
             </Head>
             <h1 className='content'>
-                Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}
+                Env User {process.env.NEXT_PUBLIC_ANALYTICS_ID}
             </h1>
         </>
     )
