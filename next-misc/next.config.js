@@ -7,7 +7,12 @@ const nextConfig = {
       {
         source: '/about',
         destination: '/',
-        permanent: true,
+        permanent: false,
+      },
+      {
+        source: '/old-blog/:id',
+        destination: '/new-blog/:id',
+        permanent: true
       }
     ]
   }
