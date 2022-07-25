@@ -1,4 +1,4 @@
 export default function handler(req, res) {
-    res.setPreviewData({})
+    res.setPreviewData({user: 'Gaurav'})
     res.redirect(req.query.redirect)
 }

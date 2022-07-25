@@ -5,7 +5,7 @@ function News({ data }) {
 export default News
 
 export async function getStaticProps(context) {
-    console.log('Running getStaticProps')
+    console.log('Running getStaticProps', context.previewData)
     return {
         props: {
             data: context.preview ? 'List of draft artcles' : 'List of published articles',
