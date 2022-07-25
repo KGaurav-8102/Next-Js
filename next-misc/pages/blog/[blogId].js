@@ -22,6 +22,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps() {
+    const user = process.env.DB_USER
+    const password = process.env.DB_PASSWORD
+
+    console.log(`
+        connecting to database with username ${user} and password ${password}
+    `)
     return {
         props: {
             title: 'Article Title',
